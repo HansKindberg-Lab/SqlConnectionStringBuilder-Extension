@@ -1,0 +1,36 @@
+# editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = tab
+indent_style = tab
+insert_final_newline = false
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.cshtml]
+charset = utf-8-bom
+
+# Tabs are not supported in YAML: https://yaml.org/faq.html
+[*.{yaml,yml}]
+indent_size = 2
+indent_style = space
+
+[*.cs]
+# Set all, https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019#set-rule-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file
+dotnet_analyzer_diagnostic.severity = error
+
+# Suppress
+dotnet_diagnostic.CA1848.severity = none
+dotnet_diagnostic.CA1852.severity = none
+dotnet_diagnostic.CA2254.severity = none
+dotnet_diagnostic.IDE0003.severity = none
+dotnet_diagnostic.IDE0008.severity = none
+dotnet_diagnostic.IDE0011.severity = none
+dotnet_diagnostic.IDE0046.severity = none
+dotnet_diagnostic.IDE0055.severity = none
+dotnet_diagnostic.IDE0057.severity = none
+dotnet_diagnostic.IDE0058.severity = none
+dotnet_diagnostic.IDE0063.severity = none

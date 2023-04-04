@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup>
+		<CheckEolTargetFramework>false</CheckEolTargetFramework>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+		<LangVersion>latest</LangVersion>
+		<SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>Project.Data.SqlClient.Extensions</RootNamespace>
+		<TargetFrameworks>net5.0;net6.0;net7.0;netcoreapp3.1;netstandard2.0</TargetFrameworks>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+	</ItemGroup>
+</Project>
